@@ -1,0 +1,21 @@
+# Python bytecode (ملفات ملهاش لزمة بتطلع وقت التشغيل)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments (عشان ما ترفعش مكتبات البايثون نفسها، السيرفر بيثبتها لوحده)
+venv/
+.env
+env/
+.venv/
+
+# Streamlit (ملفات إعدادات ستريمليت المحلية)
+.streamlit/config.toml
+
+# OS generated files (ملفات الويندوز والماك المخفية)
+.DS_Store
+Thumbs.db
+
+# Large Models (اختياري)
+# لو ملف الـ weights كبير جداً (أكتر من 100 ميجا) الجيت هيرفضه
+# بس بما إنك محتاج best.pt عشان الـ app يشتغل، سيبه مش هنحطه هنا.
